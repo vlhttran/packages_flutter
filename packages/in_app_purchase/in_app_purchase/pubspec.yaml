@@ -23,7 +23,10 @@ dependencies:
     sdk: flutter
   in_app_purchase_android: ^0.3.4
   in_app_purchase_platform_interface: ^1.4.0
-  in_app_purchase_storekit: ^0.3.14
+  in_app_purchase_storekit:
+    git:
+      url: https://github.com/vlhttran/packages_flutter.git
+      path: packages/in_app_purchase/in_app_purchase_storekit
 
 dev_dependencies:
   flutter_test:
